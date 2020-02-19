@@ -13,7 +13,8 @@ import {
   ScrollView,
   View,
   Text,
-  StatusBar,NativeModules,
+  Date,
+  StatusBar,NativeModules,requireNativeComponent,
 } from 'react-native';
 
 import {
@@ -23,9 +24,16 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Swipes from './swipes';  
 
 const App: () => React$Node = () => {
-  NativeModules.Counter.reColour(100,230,200)
+ // var date = new Date('October 15, 1996 05:35:32')
+  NativeModules.Counter.reColour(255,230,200)
+  console.log(NativeModules.CalendarManager.addEvent(
+    'Birthday Party',
+    '4 Privet Drive, Surrey',
+    3121231231231,
+  ))
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -39,6 +47,9 @@ const App: () => React$Node = () => {
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
           )}
+          <Swipes />
+
+          
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>

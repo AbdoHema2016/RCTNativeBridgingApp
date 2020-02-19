@@ -17,6 +17,9 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* NativeBridgingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NativeBridgingAppTests.m */; };
 		83E522DD02CF9005C7F767D7 /* libPods-NativeBridgingApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 867FEC7BFF6135AC5B63B9AE /* libPods-NativeBridgingApp-tvOSTests.a */; };
+		946D62F823F006BC0018FF51 /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 946D62F723F006BC0018FF51 /* CalendarManager.m */; };
+		94DBA27F23FD3AD7002D7DB1 /* RNSwipeableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DBA27E23FD3AD7002D7DB1 /* RNSwipeableManager.m */; };
+		94DBA28123FD3B01002D7DB1 /* RNSwipeable.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DBA28023FD3B01002D7DB1 /* RNSwipeable.m */; };
 		94F918F323EC2D23001484FD /* InstabugBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F918F223EC2D23001484FD /* InstabugBridge.swift */; };
 		94F918F523EC2EDC001484FD /* InstabugBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F918F423EC2EDC001484FD /* InstabugBridge.m */; };
 		E17F5870CDA3A8685927A5F3 /* libPods-NativeBridgingApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7480243036DFAFC6D9D57DEF /* libPods-NativeBridgingApp-tvOS.a */; };
@@ -63,6 +66,12 @@
 		8700BD6E7060C266560628F0 /* Pods-NativeBridgingApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeBridgingApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-NativeBridgingApp-tvOSTests/Pods-NativeBridgingApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		8EF63439A5F86F004E1AC4C9 /* Pods-NativeBridgingApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeBridgingApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-NativeBridgingApp-tvOS/Pods-NativeBridgingApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		93A94BACF51AA5150C5E9EA5 /* Pods-NativeBridgingApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeBridgingApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-NativeBridgingApp-tvOS/Pods-NativeBridgingApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		946D62F623F006600018FF51 /* CalendarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarManager.h; sourceTree = "<group>"; };
+		946D62F723F006BC0018FF51 /* CalendarManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
+		94DBA27E23FD3AD7002D7DB1 /* RNSwipeableManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSwipeableManager.m; sourceTree = "<group>"; };
+		94DBA28023FD3B01002D7DB1 /* RNSwipeable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSwipeable.m; sourceTree = "<group>"; };
+		94DBA28223FD3BCA002D7DB1 /* RNSwipeableManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNSwipeableManager.h; sourceTree = "<group>"; };
+		94DBA28323FD3C11002D7DB1 /* RNSwipeable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNSwipeable.h; sourceTree = "<group>"; };
 		94F918F123EC2D22001484FD /* NativeBridgingApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeBridgingApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		94F918F223EC2D23001484FD /* InstabugBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstabugBridge.swift; sourceTree = "<group>"; };
 		94F918F423EC2EDC001484FD /* InstabugBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstabugBridge.m; sourceTree = "<group>"; };
@@ -138,8 +147,14 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				94F918F223EC2D23001484FD /* InstabugBridge.swift */,
+				946D62F623F006600018FF51 /* CalendarManager.h */,
+				946D62F723F006BC0018FF51 /* CalendarManager.m */,
 				94F918F423EC2EDC001484FD /* InstabugBridge.m */,
 				94F918F123EC2D22001484FD /* NativeBridgingApp-Bridging-Header.h */,
+				94DBA27E23FD3AD7002D7DB1 /* RNSwipeableManager.m */,
+				94DBA28223FD3BCA002D7DB1 /* RNSwipeableManager.h */,
+				94DBA28023FD3B01002D7DB1 /* RNSwipeable.m */,
+				94DBA28323FD3C11002D7DB1 /* RNSwipeable.h */,
 			);
 			name = NativeBridgingApp;
 			sourceTree = "<group>";
@@ -559,7 +574,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94DBA27F23FD3AD7002D7DB1 /* RNSwipeableManager.m in Sources */,
+				946D62F823F006BC0018FF51 /* CalendarManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				94DBA28123FD3B01002D7DB1 /* RNSwipeable.m in Sources */,
 				94F918F523EC2EDC001484FD /* InstabugBridge.m in Sources */,
 				94F918F323EC2D23001484FD /* InstabugBridge.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
